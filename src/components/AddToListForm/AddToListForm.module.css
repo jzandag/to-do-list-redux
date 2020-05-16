@@ -1,0 +1,41 @@
+.AddToListForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 30px;
+}
+.AddToListForm input{
+    width: 300px;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin: 10px;
+}
+.AddToListForm input:hover,
+.AddToListForm input:active,
+.AddToListForm input:focus {
+    border-bottom: violet 2px solid;
+}
+
+.AddToListForm button{
+    padding: 5px;
+    font-size: 18px;
+    color: rgb(60, 201, 60);
+    background: transparent;
+    border: rgb(60, 201, 60) solid 2px;
+    border-radius: 15px;
+    outline: none;
+}
+
+.AddToListForm button:hover,
+.AddToListForm button:active{
+    color: rgb(9, 255, 9);
+    border-color: rgb(2, 39, 2);
+}
+
+@media (max-width: 500px){
+    .AddToListForm input{
+        width: 90%;
+    }
+}

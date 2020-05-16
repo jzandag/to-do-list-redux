@@ -1,0 +1,15 @@
+.ListItems{
+    margin: 0 0px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    border: tomato 2px solid;
+    box-sizing: border-box;
+    max-height: 500px;
+    overflow: hidden;
+}
+@media(max-width: 500px){
+    .ListItems{
+        width: 90%;
+    }
+}

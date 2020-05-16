@@ -1,0 +1,14 @@
+.TodoList{
+    width: 50%;
+    margin: auto;
+    color: wheat;
+}
+.TodoList h1{
+    text-align: center 
+}
+
+@media (max-width: 500px){
+    .TodoList{
+        width: 100%;
+    }
+}

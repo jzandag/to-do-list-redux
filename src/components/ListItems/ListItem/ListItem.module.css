@@ -1,0 +1,28 @@
+.ListItem{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.ListItem a{
+    text-transform: capitalize;
+    font-size: 36px;
+}
+.ListItem.Todo{
+    color: green;
+}
+.ListItem.Done{
+    text-decoration: line-through;
+    color: red
+}
+.ListItem button{
+    border-radius: 100px;
+    border: yellow 2px solid;
+    color: yellow;
+    background: transparent;
+    outline: none;
+}
